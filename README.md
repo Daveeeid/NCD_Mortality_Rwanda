@@ -1,4 +1,4 @@
-#NCD Mortality in Rwanda (2000–2021) – Capstone Project
+# NCD Mortality in Rwanda (2000–2021) – Capstone Project
 
 This project presents a detailed data analytics capstone study on Non-Communicable Disease (NCD) mortality trends in Rwanda between 2000 and 2021. The analysis uses clustering and visualization techniques to derive insights that support public health planning.
 
