@@ -91,13 +91,13 @@ This model-driven phase categorization enhances the depth and reliability of the
 
 **4. Dashboard Design (Power BI)**
 
-Imported cleaned CSV
+- Imported cleaned CSV
 
-Created line chart, bar chart, KPI cards, raw data table
+- Created line chart, bar chart, KPI cards, raw data table
 
-Added slicers for Phase and Year to enable interactivity
+- Added slicers for Phase and Year to enable interactivity
 
-📷 Power BI Screenshot: Dashboard with slicers, charts, and cards
+![image alt](https://github.com/Daveeeid/NCD_Mortality_Rwanda/blob/main/dashboard.jpg?raw=true)
 
 ### 📊 Results & Insights  
 | Phase | Years | Avg TOTAL (%) |
