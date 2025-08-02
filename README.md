@@ -1,7 +1,9 @@
 # NCD Mortality in Rwanda (2000–2021) – Capstone Project  
-**NAMES:** Muhirwa David
-**ID:** 27436
-**AUCA**
+**NAMES:** Muhirwa David  
+**ID:** 27436  
+**AUCA**  
+
+##Introduction
 
 This project presents a detailed data analytics capstone study on Non-Communicable Disease (NCD) mortality trends in Rwanda between 2000 and 2021. The analysis uses clustering and visualization techniques to derive insights that support public health planning.
 
