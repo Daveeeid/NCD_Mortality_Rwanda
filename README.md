@@ -18,35 +18,15 @@ Non-communicable diseases (NCDs) like cardiovascular conditions, cancer, and dia
 
 **Source**: WHO Global Health ObservatoryOriginal Format: Kaggle ZIP ("WHO Non-communicable diseases")Filtered Dataset: rwanda_ncd_clustered.csv
 
-Variables Included:
-
-Column
-
-Description
-
-Year
-
-Calendar year from 2000 to 2021
-
-FEMALE
-
-Female NCD mortality rate (%)
-
-MALE
-
-Male NCD mortality rate (%)
-
-TOTAL
-
-Average of male and female mortality (%)
-
-Cluster
-
-Numeric cluster label from KMeans (0 = high risk)
-
-Phase
-
-Descriptive phase: High Risk, Transition, Low Risk
+Variables Included:  
+| Column | Description |
+|---|---|
+| Year | Calendar year from 2000 to 2021. |
+| FEMALE | Female NCD mortality rate (%). |
+| MALE | Male NCD mortality rate (%). |
+| TOTAL | Average of male and female mortality (%). |
+| Cluster | Numeric cluster label from KMeans (0 = high risk). |
+| Phase | Descriptive phase: High Risk, Transition, Low Risk. |
 
 🔧 Tools & Technologies Used
 
