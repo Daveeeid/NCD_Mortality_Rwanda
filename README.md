@@ -6,17 +6,17 @@ This project presents a detailed data analytics capstone study on Non-Communicab
 
 Non-communicable diseases (NCDs) like cardiovascular conditions, cancer, and diabetes are leading causes of death worldwide. In Rwanda, this burden is rising. This project investigates:
 
-The trend of NCD mortality rates over time
+-The trend of NCD mortality rates over time
 
-Differences by gender
+-Differences by gender
 
-Risk segmentation using clustering (KMeans)
+-Risk segmentation using clustering (KMeans)
 
-Interactive dashboards for insight delivery using Power BI
+-Interactive dashboards for insight delivery using Power BI
 
 📂 Dataset
 
-Source: WHO Global Health ObservatoryOriginal Format: Kaggle ZIP ("WHO Non-communicable diseases")Filtered Dataset: rwanda_ncd_clustered.csv
+**Source**: WHO Global Health ObservatoryOriginal Format: Kaggle ZIP ("WHO Non-communicable diseases")Filtered Dataset: rwanda_ncd_clustered.csv
 
 Variables Included:
 
@@ -50,36 +50,21 @@ Descriptive phase: High Risk, Transition, Low Risk
 
 🔧 Tools & Technologies Used
 
-Python (Pandas, Matplotlib, Scikit-learn)
+-Python (Pandas, Matplotlib, Scikit-learn)
 
-Jupyter Notebook for preprocessing and modeling
+-Jupyter Notebook for preprocessing and modeling
 
-Power BI for interactive dashboard creation
+-Power BI for interactive dashboard creation
 
-KMeans Clustering for phase segmentation
-
-📆 Project Structure
-
-NCD-Mortality-Rwanda-Capstone/
-├── README.md
-├── data/
-│   └── rwanda_ncd_clustered.csv
-├── notebooks/
-│   └── ncd_analysis.ipynb
-├── powerbi/
-│   └── ncd_dashboard.pbix
-├── presentation/
-│   └── NCD_Mortality_Rwanda_Capstone.pptx
-└── report/
-    └── final_report.pdf
+-KMeans Clustering for phase segmentation
 
 🧐 Methodology
 
 1. Data Cleaning (Python)
 
-Removed missing values and standard formatting errors
+-Removed missing values and standard formatting errors
 
-Calculated TOTAL column as an average of FEMALE and MALE
+-Calculated TOTAL column as an average of FEMALE and MALE
 
 📷 Python Screenshot: Handling missing values and calculating total mortality
 
