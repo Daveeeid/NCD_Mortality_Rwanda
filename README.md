@@ -6,13 +6,13 @@ This project presents a detailed data analytics capstone study on Non-Communicab
 
 Non-communicable diseases (NCDs) like cardiovascular conditions, cancer, and diabetes are leading causes of death worldwide. In Rwanda, this burden is rising. This project investigates:
 
--The trend of NCD mortality rates over time
+- The trend of NCD mortality rates over time
 
--Differences by gender
+- Differences by gender
 
--Risk segmentation using clustering (KMeans)
+- Risk segmentation using clustering (KMeans)
 
--Interactive dashboards for insight delivery using Power BI
+- Interactive dashboards for insight delivery using Power BI
 
 📂 Dataset
 
@@ -30,11 +30,11 @@ Variables Included:
 
 🔧 Tools & Technologies Used
 
--Python (Pandas, Matplotlib, Scikit-learn)
+- Python (Pandas, Matplotlib, Scikit-learn)
 
--Jupyter Notebook for preprocessing and modeling
+- Jupyter Notebook for preprocessing and modeling
 
--Power BI for interactive dashboard creation
+- Power BI for interactive dashboard creation
 
 -KMeans Clustering for phase segmentation
 
@@ -42,9 +42,9 @@ Variables Included:
 
 1. Data Cleaning (Python)
 
--Removed missing values and standard formatting errors
+- Removed missing values and standard formatting errors
 
--Calculated TOTAL column as an average of FEMALE and MALE
+- Calculated TOTAL column as an average of FEMALE and MALE
 
 📷 Python Screenshot: Handling missing values and calculating total mortality
 
