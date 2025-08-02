@@ -114,7 +114,7 @@ This model-driven phase categorization enhances the depth and reliability of the
 
 - Overall 14% drop in total NCD mortality over 21 years
 
-📷 Power BI Screenshot: Bar chart comparing average mortality by phase
+![imag alt](https://github.com/Daveeeid/NCD_Mortality_Rwanda/blob/main/categories.jpg?raw=true)
 
 ## 📊 Power BI Dashboard Features
 
