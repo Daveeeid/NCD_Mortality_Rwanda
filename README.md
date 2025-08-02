@@ -1,4 +1,7 @@
-# NCD Mortality in Rwanda (2000–2021) – Capstone Project
+# NCD Mortality in Rwanda (2000–2021) – Capstone Project  
+**NAMES:** Muhirwa David
+**ID:** 27436
+**AUCA**
 
 This project presents a detailed data analytics capstone study on Non-Communicable Disease (NCD) mortality trends in Rwanda between 2000 and 2021. The analysis uses clustering and visualization techniques to derive insights that support public health planning.
 
@@ -132,27 +135,10 @@ Slicers: Dynamic filters for Year and Phase
 
 ## 🤖 Future Enhancements
 
-Expand the analysis to East African region (Kenya, Uganda)
+- Expand the analysis to East African region (Kenya, Uganda)
+- Integrate policy events and funding data to explain shifts
+- Use time series models for forecasting future NCD rates
+- Analyze additional indicators (e.g., blood pressure, obesity, smoking)
 
-Integrate policy events and funding data to explain shifts
 
-Use time series models for forecasting future NCD rates
-
-Analyze additional indicators (e.g., blood pressure, obesity, smoking)
-
-👤 Author
-
-David MuhirwaStudent, Adventist University of Central Africa (AUCA)Instructor: Eric Maniraguha
-
-🎓 Acknowledgements
-
-WHO for open data access
-
-Kaggle for initial dataset reference (non-restricted)
-
-Instructor and peer support during project development
-
-📦 License
-
-This project is for educational purposes only and complies with AUCA's academic integrity policy. All data used is publicly available and properly credited.
 
