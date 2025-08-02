@@ -49,10 +49,9 @@ Variables Included:
 📷 Python Screenshot: Handling missing values and calculating total mortality
 
 **2. Exploratory Data Analysis**
+- Generated summary statistics
 
-_ Generated summary statistics
-
-_ Visualized gender-wise and total mortality trends over time
+- Visualized gender-wise and total mortality trends over time
 
 ![image alt](https://github.com/Daveeeid/NCD_Mortality_Rwanda/blob/main/descriptive%20stats.jpg?raw=true)  
 This block computes summary statistics (count, mean, min, max, std, etc.) of NCD mortality rates for both male and female groups individually using groupby(). It also generates overall descriptive statistics for the entire dataset, regardless of gender.
@@ -77,7 +76,18 @@ This step sets the foundation for visualizing disparities and selecting appropri
 
 - Named clusters: High Risk, Transition, Low Risk
 
-📷 Python Screenshot: KMeans clustering process and cluster assignment
+![image alt](https://github.com/Daveeeid/NCD_Mortality_Rwanda/blob/main/pivot.jpg?raw=true)  
+This section applies KMeans clustering to segment Rwanda’s yearly NCD mortality rates into 3 meaningful risk phases:
+
+Pivoting: Data is reshaped so each row is a year, with separate columns for male and female mortality.
+
+Standardization: Values are scaled to ensure fair clustering regardless of original magnitude.
+
+Clustering: Using KMeans (with k=3), we identify clusters representing High Risk, Transition, and Low Risk periods.
+
+Silhouette Score: A metric to evaluate how well the data is clustered. Values closer to 1 indicate better-defined clusters.
+
+This model-driven phase categorization enhances the depth and reliability of the final Power BI dashboard.
 
 **4. Dashboard Design (Power BI)**
 
