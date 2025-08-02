@@ -2,7 +2,7 @@
 
 This project presents a detailed data analytics capstone study on Non-Communicable Disease (NCD) mortality trends in Rwanda between 2000 and 2021. The analysis uses clustering and visualization techniques to derive insights that support public health planning.
 
-##📊 Overview
+## 📊 Overview
 
 Non-communicable diseases (NCDs) like cardiovascular conditions, cancer, and diabetes are leading causes of death worldwide. In Rwanda, this burden is rising. This project investigates:
 
@@ -14,7 +14,7 @@ Non-communicable diseases (NCDs) like cardiovascular conditions, cancer, and dia
 
 - Interactive dashboards for insight delivery using Power BI
 
-##📂 Dataset
+## 📂 Dataset
 
 **Source**: WHO Global Health ObservatoryOriginal Format: Kaggle ZIP ("WHO Non-communicable diseases")Filtered Dataset: rwanda_ncd_clustered.csv
 
@@ -28,7 +28,7 @@ Variables Included:
 | Cluster | Numeric cluster label from KMeans (0 = high risk). |
 | Phase | Descriptive phase: High Risk, Transition, Low Risk. |
 
-##🔧 Tools & Technologies Used
+## 🔧 Tools & Technologies Used
 
 - Python (Pandas, Matplotlib, Scikit-learn)
 
@@ -38,7 +38,7 @@ Variables Included:
 
 - KMeans Clustering for phase segmentation
 
-##🧐 Methodology
+## 🧐 Methodology
 
 **1. Data Cleaning (Python)**
 
@@ -114,7 +114,7 @@ Overall 14% drop in total NCD mortality over 21 years
 
 📷 Power BI Screenshot: Bar chart comparing average mortality by phase
 
-##📊 Power BI Dashboard Features
+## 📊 Power BI Dashboard Features
 
 KPI Cards for Female, Male, and Total average rates
 
@@ -128,7 +128,7 @@ Slicers: Dynamic filters for Year and Phase
 
 📷 Power BI Screenshot: Full dashboard overview with interactivity
 
-🤖 Future Enhancements
+## 🤖 Future Enhancements
 
 Expand the analysis to East African region (Kenya, Uganda)
 
