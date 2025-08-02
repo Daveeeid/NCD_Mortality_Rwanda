@@ -50,19 +50,19 @@ Variables Included:
 
 **2. Exploratory Data Analysis**
 
-Generated summary statistics
+_ Generated summary statistics
 
-Visualized gender-wise and total mortality trends over time
+_ Visualized gender-wise and total mortality trends over time
 
 📷 Python Screenshot: Descriptive statistics and line plots showing trends over years
 
 **3. Machine Learning (Clustering)**
 
-Applied KMeans clustering (k=3)
+- Applied KMeans clustering (k=3)
 
-Clustered years into three groups based on TOTAL
+- Clustered years into three groups based on TOTAL
 
-Named clusters: High Risk, Transition, Low Risk
+- Named clusters: High Risk, Transition, Low Risk
 
 📷 Python Screenshot: KMeans clustering process and cluster assignment
 
@@ -76,41 +76,20 @@ Added slicers for Phase and Year to enable interactivity
 
 📷 Power BI Screenshot: Dashboard with slicers, charts, and cards
 
-📊 Results & Insights
-
-Phase Clusters (2000–2021):
-
-Phase
-
-Years
-
-Avg TOTAL (%)
-
-High Risk
-
-2000–2004
-
-~37.6%
-
-Transition
-
-2005–2009
-
-~29.0%
-
-Low Risk
-
-2010–2021
-
-~23.7%
+### 📊 Results & Insights  
+| Phase | Years | Avg TOTAL (%) |
+|---|---|---|
+| High Risk | 2000-2004 | ~37.6% |
+| Transition | 2005–2009 | ~29.0% |
+| Low Risk | 2010–2021 | ~23.7% |
 
 **Key Observations:**
 
-Male mortality consistently higher than female
+- Male mortality consistently higher than female
 
-Major improvements occurred during 2005–2009 (transition period)
+- Major improvements occurred during 2005–2009 (transition period)
 
-Overall 14% drop in total NCD mortality over 21 years
+- Overall 14% drop in total NCD mortality over 21 years
 
 📷 Power BI Screenshot: Bar chart comparing average mortality by phase
 
