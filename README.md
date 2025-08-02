@@ -54,7 +54,20 @@ _ Generated summary statistics
 
 _ Visualized gender-wise and total mortality trends over time
 
-📷 Python Screenshot: Descriptive statistics and line plots showing trends over years
+![image alt](https://github.com/Daveeeid/NCD_Mortality_Rwanda/blob/main/descriptive%20stats.jpg?raw=true)  
+This block computes summary statistics (count, mean, min, max, std, etc.) of NCD mortality rates for both male and female groups individually using groupby(). It also generates overall descriptive statistics for the entire dataset, regardless of gender.
+
+**These values help assess:**  
+
+   Central tendency (mean, median)
+
+   Spread (standard deviation, range)
+
+   Differences in NCD mortality between males and females
+
+This step sets the foundation for visualizing disparities and selecting appropriate clustering features.
+
+
 
 **3. Machine Learning (Clustering)**
 
