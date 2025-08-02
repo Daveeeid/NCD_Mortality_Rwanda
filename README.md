@@ -1,8 +1,8 @@
-NCD Mortality in Rwanda (2000–2021) – Capstone Project
+#NCD Mortality in Rwanda (2000–2021) – Capstone Project
 
 This project presents a detailed data analytics capstone study on Non-Communicable Disease (NCD) mortality trends in Rwanda between 2000 and 2021. The analysis uses clustering and visualization techniques to derive insights that support public health planning.
 
-📊 Overview
+##📊 Overview
 
 Non-communicable diseases (NCDs) like cardiovascular conditions, cancer, and diabetes are leading causes of death worldwide. In Rwanda, this burden is rising. This project investigates:
 
@@ -14,7 +14,7 @@ Non-communicable diseases (NCDs) like cardiovascular conditions, cancer, and dia
 
 - Interactive dashboards for insight delivery using Power BI
 
-📂 Dataset
+##📂 Dataset
 
 **Source**: WHO Global Health ObservatoryOriginal Format: Kaggle ZIP ("WHO Non-communicable diseases")Filtered Dataset: rwanda_ncd_clustered.csv
 
@@ -28,7 +28,7 @@ Variables Included:
 | Cluster | Numeric cluster label from KMeans (0 = high risk). |
 | Phase | Descriptive phase: High Risk, Transition, Low Risk. |
 
-🔧 Tools & Technologies Used
+##🔧 Tools & Technologies Used
 
 - Python (Pandas, Matplotlib, Scikit-learn)
 
@@ -36,11 +36,11 @@ Variables Included:
 
 - Power BI for interactive dashboard creation
 
--KMeans Clustering for phase segmentation
+- KMeans Clustering for phase segmentation
 
-🧐 Methodology
+##🧐 Methodology
 
-1. Data Cleaning (Python)
+**1. Data Cleaning (Python)**
 
 - Removed missing values and standard formatting errors
 
@@ -48,7 +48,7 @@ Variables Included:
 
 📷 Python Screenshot: Handling missing values and calculating total mortality
 
-2. Exploratory Data Analysis
+**2. Exploratory Data Analysis**
 
 Generated summary statistics
 
@@ -56,7 +56,7 @@ Visualized gender-wise and total mortality trends over time
 
 📷 Python Screenshot: Descriptive statistics and line plots showing trends over years
 
-3. Machine Learning (Clustering)
+**3. Machine Learning (Clustering)**
 
 Applied KMeans clustering (k=3)
 
@@ -66,7 +66,7 @@ Named clusters: High Risk, Transition, Low Risk
 
 📷 Python Screenshot: KMeans clustering process and cluster assignment
 
-4. Dashboard Design (Power BI)
+**4. Dashboard Design (Power BI)**
 
 Imported cleaned CSV
 
@@ -104,7 +104,7 @@ Low Risk
 
 ~23.7%
 
-Key Observations:
+**Key Observations:**
 
 Male mortality consistently higher than female
 
@@ -114,7 +114,7 @@ Overall 14% drop in total NCD mortality over 21 years
 
 📷 Power BI Screenshot: Bar chart comparing average mortality by phase
 
-📊 Power BI Dashboard Features
+##📊 Power BI Dashboard Features
 
 KPI Cards for Female, Male, and Total average rates
 
