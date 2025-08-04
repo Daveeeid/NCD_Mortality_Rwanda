@@ -45,7 +45,11 @@ Variables Included:
 
 ## 🧐 Methodology
 
-**1. Data Cleaning (Python)**
+**1. Sata Loading**  
+![](https://github.com/Daveeeid/NCD_Mortality_Rwanda/blob/main/data%20loading.jpg?raw=true)  
+I started by loading the original dataset RELAY_WHS.csv, which contains non-communicable disease (NCD) mortality rates from the World Health Survey. Using pandas.read_csv(), we read the file into a DataFrame and preview its first few rows to understand the structure and column contents. This step helps identify which rows/columns are relevant for filtering Rwanda-specific data.
+
+**2. Data Cleaning (Python)**
 
 - Removed missing values and standard formatting errors
 
@@ -56,7 +60,7 @@ The .dropna() function removed any rows (years) where male or female mortality d
 ![](https://github.com/Daveeeid/NCD_Mortality_Rwanda/blob/main/total.jpg?raw=true)  
 This line created a new TOTAL column by averaging the FEMALE and MALE mortality rates — which is essential for later clustering and analysis.
 
-**2. Exploratory Data Analysis**
+**3. Exploratory Data Analysis**
 - Generated summary statistics
 
 - Visualized gender-wise and total mortality trends over time
@@ -76,7 +80,7 @@ This step sets the foundation for visualizing disparities and selecting appropri
 
 
 
-**3. Machine Learning (Clustering)**
+**4. Machine Learning (Clustering)**
 
 - Applied KMeans clustering (k=3)
 
@@ -97,7 +101,7 @@ This section applies KMeans clustering to segment Rwanda’s yearly NCD mortalit
 
 This model-driven phase categorization enhances the depth and reliability of the final Power BI dashboard.
 
-**4. Dashboard Design (Power BI)**
+**5. Dashboard Design (Power BI)**
 
 - Imported cleaned CSV
 
