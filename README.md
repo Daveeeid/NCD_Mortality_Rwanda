@@ -107,9 +107,9 @@ This model-driven phase categorization enhances the depth and reliability of the
 ### 📊 Results & Insights  
 | Phase | Years | Avg TOTAL (%) |
 |---|---|---|
-| High Risk | 2000-2004 | ~37.6% |
-| Transition | 2005–2009 | ~29.0% |
-| Low Risk | 2010–2021 | ~23.7% |
+| High Risk | 2000-2004 | ~36.6% |
+| Transition | 2005–2009 | ~29.8% |
+| Low Risk | 2010–2021 | ~23.6% |
 
 **Key Observations:**
 
