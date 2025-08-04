@@ -45,7 +45,8 @@ Variables Included:
 
 ## 🧐 Methodology
 
-**1. Sata Loading**  
+**1. Data Loading**  
+  
 ![](https://github.com/Daveeeid/NCD_Mortality_Rwanda/blob/main/data%20loading.jpg?raw=true)  
 I started by loading the original dataset RELAY_WHS.csv, which contains non-communicable disease (NCD) mortality rates from the World Health Survey. Using pandas.read_csv(), we read the file into a DataFrame and preview its first few rows to understand the structure and column contents. This step helps identify which rows/columns are relevant for filtering Rwanda-specific data.
 
