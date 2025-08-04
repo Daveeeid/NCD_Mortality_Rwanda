@@ -52,6 +52,9 @@ Variables Included:
 - Calculated TOTAL column as an average of FEMALE and MALE
 
 ![](https://github.com/Daveeeid/NCD_Mortality_Rwanda/blob/main/drop.jpg?raw=true)
+The .dropna() function removed any rows (years) where male or female mortality data was missing — a basic but effective data cleaning step.  
+![](https://github.com/Daveeeid/NCD_Mortality_Rwanda/blob/main/total.jpg?raw=true)  
+This line created a new TOTAL column by averaging the FEMALE and MALE mortality rates — which is essential for later clustering and analysis.
 
 **2. Exploratory Data Analysis**
 - Generated summary statistics
