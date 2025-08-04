@@ -115,7 +115,7 @@ This model-driven phase categorization enhances the depth and reliability of the
 
 - Male mortality consistently higher than female
 
-- Major improvements occurred during 2005–2009 (transition period)
+- Major improvements occurred during 2002–2004 (transition period)
 
 - Overall 14% drop in total NCD mortality over 21 years
 
