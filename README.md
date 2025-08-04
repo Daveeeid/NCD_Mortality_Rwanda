@@ -51,7 +51,7 @@ Variables Included:
 
 - Calculated TOTAL column as an average of FEMALE and MALE
 
-📷 Python Screenshot: Handling missing values and calculating total mortality
+![](https://github.com/Daveeeid/NCD_Mortality_Rwanda/blob/main/drop.jpg?raw=true)
 
 **2. Exploratory Data Analysis**
 - Generated summary statistics
